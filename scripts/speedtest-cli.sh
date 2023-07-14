@@ -13,4 +13,6 @@ echo "Making file executable ..."
 chmod +x /usr/bin/speedtest
 echo "Cleaning ..."
 rm -f /tmp/speedtest-cli.tgz
+rm -f /tmp/speedtest.md
+rm -f /tmp/speedtest.5
 echo -e "\033[38;5;40mInstallation of speedtest-cli completed!"
